@@ -490,14 +490,14 @@ public class EmployeeController {
         return employee;
     }
 
-    @RequestMapping("/addOwner")
-    public void AddOwner(@RequestParam("username") String usname, @RequestParam("password") String password) {
-        Login log = new Login();
-        log.setUsername(usname);
-        log.setPassword(password);
-        log.setPrivilege("owner");
-        loginServiceImplementation.saveLogin(log);
-    }
+//    @RequestMapping("/addOwner")
+//    public void AddOwner(@RequestParam("username") String usname, @RequestParam("password") String password) {
+//        Login log = new Login();
+//        log.setUsername(usname);
+//        log.setPassword(password);
+//        log.setPrivilege("owner");
+//        loginServiceImplementation.saveLogin(log);
+//    }
 }
 
 class viewableEmployee {

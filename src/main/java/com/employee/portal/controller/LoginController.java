@@ -199,10 +199,10 @@ public class LoginController {
     }
 
 
-    @RequestMapping("/getAll")
-    public List<Login> getAllLogins() {
-        return loginServiceImplementation.loginRepository.findAll();
-    }
+//    @RequestMapping("/getAll")
+//    public List<Login> getAllLogins() {
+//        return loginServiceImplementation.loginRepository.findAll();
+//    }
 }
 
 class LoginReturn {
