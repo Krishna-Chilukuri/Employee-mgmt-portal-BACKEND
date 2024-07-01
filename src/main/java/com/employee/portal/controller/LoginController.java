@@ -198,6 +198,9 @@ public class LoginController {
         return "Password Changed Successfully !!!";
     }
 
+    @RequestMapping("/addGuestUser")
+    String addGuest(@RequestParam(name))
+
 
 //    @RequestMapping("/getAll")
 //    public List<Login> getAllLogins() {
