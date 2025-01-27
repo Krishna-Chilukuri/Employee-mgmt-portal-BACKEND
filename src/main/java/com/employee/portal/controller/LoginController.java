@@ -109,11 +109,11 @@ public class LoginController {
             sessionServiceImplementation.deleteSessionById(sessionId);
             return new Session();
         }
-        else if(!currSession.getIpAddress().equals(currIp)) {
-            lg.log("Mismatch IP");
-            sessionServiceImplementation.deleteSessionById(sessionId);
-            return new Session();
-        }
+        // else if(!currSession.getIpAddress().equals(currIp)) {
+        //     lg.log("Mismatch IP");
+        //     sessionServiceImplementation.deleteSessionById(sessionId);
+        //     return new Session();
+        // }
         return currSession;
     }
 
